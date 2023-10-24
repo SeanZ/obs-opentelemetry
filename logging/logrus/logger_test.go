@@ -18,8 +18,8 @@ import (
 	"context"
 	"testing"
 
+	otelhertzlogrus "github.com/SeanZ/obs-opentelemetry/logging/logrus"
 	"github.com/cloudwego/hertz/pkg/common/hlog"
-	otelhertzlogrus "github.com/hertz-contrib/obs-opentelemetry/logging/logrus"
 	"github.com/sirupsen/logrus"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/exporters/stdout/stdouttrace"

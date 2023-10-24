@@ -1,4 +1,4 @@
-module github.com/hertz-contrib/obs-opentelemetry/logging/zap
+module github.com/SeanZ/obs-opentelemetry/logging/zap
 
 go 1.17
 

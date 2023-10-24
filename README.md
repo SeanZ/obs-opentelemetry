@@ -32,8 +32,8 @@ English | [中文](README_CN.md)
 ```go
 import (
     ...
-    "github.com/hertz-contrib/obs-opentelemetry/provider"
-    "github.com/hertz-contrib/obs-opentelemetry/tracing"
+    "github.com/SeanZ/obs-opentelemetry/provider"
+    "github.com/SeanZ/obs-opentelemetry/tracing"
 )
 
 
@@ -62,8 +62,8 @@ func main()  {
 ```go
 import (
     ...
-    "github.com/hertz-contrib/obs-opentelemetry/provider"
-    "github.com/hertz-contrib/obs-opentelemetry/tracing"
+    "github.com/SeanZ/obs-opentelemetry/provider"
+    "github.com/SeanZ/obs-opentelemetry/tracing"
 )
 
 func main(){
@@ -90,7 +90,7 @@ func main(){
 #### set logger impl
 ```go
 import (
-    hertzlogrus "github.com/hertz-contrib/obs-opentelemetry/logging/logrus"
+    hertzlogrus "github.com/SeanZ/obs-opentelemetry/logging/logrus"
 )
 
 func init()  {

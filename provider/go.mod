@@ -1,4 +1,4 @@
-module github.com/hertz-contrib/obs-opentelemetry/provider
+module github.com/SeanZ/obs-opentelemetry/provider
 
 go 1.17
 

@@ -1,4 +1,4 @@
-module github.com/hertz-contrib/obs-opentelemetry/logging/logrus
+module github.com/SeanZ/obs-opentelemetry/logging/logrus
 
 go 1.17
 

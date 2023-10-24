@@ -23,7 +23,7 @@ import (
 )
 
 const (
-	instrumentationName = "github.com/hertz-contrib/obs-opentelemetry"
+	instrumentationName = "github.com/SeanZ/obs-opentelemetry/"
 )
 
 // Option opts for opentelemetry tracer provider
