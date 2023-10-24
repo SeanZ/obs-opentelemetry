@@ -95,6 +95,9 @@ func NewOpenTelemetryProvider(opts ...Option) OtelProvider {
 		if cfg.exportEnableCompression {
 			traceClientOpts = append(traceClientOpts, otlptracegrpc.WithCompressor("gzip"))
 		}
+		// default timeout
+		traceClientOpts = append(traceClientOpts, otlptracegrpc.WithTimeout(1*time.Second))
+		otlptracegrpc.WithRetry(otlptracegrpc.RetryConfig{Enabled: false})
 
 		traceClient := otlptracegrpc.NewClient(traceClientOpts...)
 
